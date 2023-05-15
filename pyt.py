@@ -1,4 +1,4 @@
-d = [2, 3, 4, 5, 6]
-it = iter(d)
-next(it)
-print('Все успешно работает!')
+from openpyxl import load_workbook
+
+book = load_workbook(filename='C:\Users\User\Desktop\xl\Таблица заявок 01.01.23-28.03.23 (1).xlsm')
+print(book)
